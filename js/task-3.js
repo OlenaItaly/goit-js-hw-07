@@ -14,9 +14,9 @@ console.dir(nameInputEl)
 const nameOutputEl = document.querySelector('#name-output')
 nameInputEl.addEventListener('input', onOutput)
 function onOutput(event) {
-    if (!event.currentTarget.value.includes("  ")) {
+    if (event.currentTarget.value.trim() !== "") {
       nameOutputEl.textContent= event.currentTarget.value 
     } else {
-       nameOutputEl.textContent = "anonimus" 
+      nameOutputEl.textContent = "Anonymous"
     }
 }
