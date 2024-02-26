@@ -175,3 +175,52 @@ letter-spacing: 0.04em;
 text-align: center;
 border: 0;
 }
+/* --------/task4--------- */
+
+/* ---------task5---------- */
+.widget {
+  width: 345px;
+  height: 280px; ;
+ display: flex;
+ flex-direction: column;
+margin-top: 50;
+margin-left: auto;
+margin-right: auto;
+/* padding: 100px, 88px, 100px, 88px; */
+border-radius: 8px;
+/* gap: 10px; */
+background-color: #FFFFFF;
+padding-top: 88px;
+justify-items: center;
+align-items: center;
+/* padding-left: auto;
+padding-right: auto; */
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+
+.change-color {
+ 
+padding: 8px, 16px, 8px, 16px;
+border-radius: 8px;
+/* gap: 10px; */
+background: #4E75FF;
+color:#FFFFFF;
+padding-top: 8px;
+padding-left: 16px;
+padding-right: 16px;
+padding-bottom: 8px;
+border: 0px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
