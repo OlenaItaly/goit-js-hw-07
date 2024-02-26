@@ -27,6 +27,7 @@ body {
 
 }
 /* -------/task2------ */
+
 /* -----task1---------*/
 .categories-task1 {
 font-family: "Montserrat", sans-serif;
@@ -81,6 +82,7 @@ text-align: left;
  border-radius: 4px;
 }
 /* -------/task1--------- */
+
 /* --------task3--------- */
 .conteiner-task3 {
 font-family: "Montserrat", sans-serif; 
@@ -174,6 +176,12 @@ line-height: 24px;
 letter-spacing: 0.04em;
 text-align: center;
 border: 0;
+cursor: pointer;
+}
+
+.btn-task4:hover,
+.btn-task4:focus {
+background-color: #4E75FF;
 }
 /* --------/task4--------- */
 
@@ -292,6 +300,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.04em;
 text-align: center;
+cursor: pointer;
 
 }
 
@@ -300,4 +309,14 @@ text-align: center;
 }
 .btn-destroy {
   background-color: red;
+}
+.btn-create:hover,
+.btn-create:focus {
+  background-color: #4E75FF;
+}
+.btn-destroy:hover,
+.btn-destroy:focus {
+  
+  background-color: #FF7070;
+
 }
