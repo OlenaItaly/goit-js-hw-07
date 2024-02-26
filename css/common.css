@@ -224,3 +224,80 @@ letter-spacing: 0.04em;
 text-align: left;
 
 }
+/* ---------/task5------ */
+
+/* -----------task6------ */
+.conteiner-task6 {
+ width: 534px;
+  height: 328px; ;
+ display: flex;
+ flex-direction: column;
+margin-top: 50;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFFFFF;
+border-radius: 8px;
+row-gap: 16px;
+padding-left: 24px;
+padding-top: 24px;
+padding-bottom: 24px;
+padding-right: 24px;
+
+
+
+}
+
+
+.controls-task6 {
+  display: flex;
+width: 486px;
+height: 104px;
+padding: 32px;
+border-radius: 8px;
+gap: 16px;
+background-color:#fafafa;
+}
+
+.boxes-task6 {
+  display: flex;
+  gap: 10px;
+  width: 486px;
+  height: 160px;
+  border-radius: 8px;
+  background-color:#fafafa;
+  
+}
+.input-task6 {
+  width: 150px;
+height: 40px;
+padding: 8px, 72px, 8px, 72px;
+border-radius: 8px;
+border: 1px;
+gap: 10px;
+text-align: center;
+}
+.btn-create, 
+.btn-destroy {
+  width: 120px;
+height: 40px;
+padding: 8px, 16px, 8px, 16px;
+border-radius: 8px;
+gap: 10px;
+border: 0px;
+
+color: #FFFFFF;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: center;
+
+}
+
+.btn-create {
+  background-color: blue;
+}
+.btn-destroy {
+  background-color: red;
+}

@@ -21,14 +21,14 @@ btnDestroy.addEventListener('click', onDestroy);
 function onCreateBox(evt) {
   const amount = Number(input.value);
   console.log(amount);
-  if (amount > 1 && amount < 100) {
+  if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
   } 
 }
 
 function createBoxes(amount){
    let elementsDiv = [];
-  for (let i = 1; i < amount; i++) {
+  for (let i = 1; i <= amount; i++) {
     const div = document.createElement('div');
     div.style.width = 30 + 10 * i + 'px';
     div.style.height = 30 + 10 * i + 'px';
